@@ -1,5 +1,5 @@
 {
-    "name": "babeuloula/france-adjacent-departments",
+    "name": "babeuloula/adjacent-departments",
     "description": "Récupère la liste des départements limitrophes en fonction d'un département.",
     "type": "library",
     "require": {
