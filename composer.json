@@ -1,0 +1,33 @@
+{
+    "name": "babeuloula/france-adjacent-departments",
+    "description": "Récupère la liste des départements limitrophes en fonction d'un département.",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "babeuloula/phpcs": "^1.2",
+        "phpstan/phpstan": "^0.12.29",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaBeuloula\\AdjacentDepartments\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BaBeuloula\\Test\\AdjacentDepartments\\": "tests/"
+        }
+    },
+    "suggest": {
+        "symfony/framework-bundle": "Needed to use with bridge."
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BaBeuloula",
+            "email": "babeuloula@gmail.com"
+        }
+    ]
+}
