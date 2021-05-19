@@ -9,7 +9,7 @@ Récupère la liste des départements limitrophes en fonction d'un département.
 ## Installation
 
 ```
-composer install wizaplace/collection-diff
+composer require babeuloula/adjacent-departments
 ```
 
 ## Utilisation
