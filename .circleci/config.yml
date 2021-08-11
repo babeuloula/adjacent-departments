@@ -16,9 +16,8 @@ commands:
                   name: "Execute: composer install"
                   command: |
                       if [ ! -f vendor/autoload.php ];then
-                          curl https://getcomposer.org/composer-stable.phar --location --silent  --output /usr/bin/composer;
+                          curl https://getcomposer.org/composer-2.phar --location --silent  --output /usr/bin/composer;
                           chmod +x /usr/bin/composer;
-                          composer global require hirak/prestissimo;
                           composer install --no-interaction --no-progress;
                       fi
 
