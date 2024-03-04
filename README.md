@@ -4,7 +4,7 @@ Récupère la liste des départements limitrophes en fonction d'un département.
 
 ## Pré-requis
 
-- PHP ^7.3
+- PHP >=7.3
 
 ## Installation
 
